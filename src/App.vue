@@ -5,7 +5,7 @@
 useHead({
   title: 'Runelords',
   meta: [
-    { name: 'description', content: 'Opinionated Vite Starter Template' },
+    { name: 'description', content: 'Runelords eSports team web page' },
   ],
 })
 </script>

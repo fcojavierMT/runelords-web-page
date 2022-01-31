@@ -4,13 +4,11 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    CarbonAccounting: typeof import('~icons/carbon/accounting')['default']
-    CarbonCampsite: typeof import('~icons/carbon/campsite')['default']
+    CarbonEvents: typeof import('~icons/carbon/events')['default']
     CarbonHome: typeof import('~icons/carbon/home')['default']
     CarbonLanguage: typeof import('~icons/carbon/language')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
     CarbonPerson: typeof import('~icons/carbon/person')['default']
-    CarbonShirt: typeof import('~icons/carbon/shirt')['default']
     CarbonShoppingCart: typeof import('~icons/carbon/shopping-cart')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
     Counter: typeof import('./components/Counter.vue')['default']

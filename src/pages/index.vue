@@ -1,10 +1,5 @@
 <template>
-  <div>
-    Hello World!
+  <div class="home-page mt-10">
+    <h3>Runelords</h3>
   </div>
 </template>
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

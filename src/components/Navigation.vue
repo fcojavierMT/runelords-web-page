@@ -10,7 +10,7 @@ const { t } = useI18n()
       <carbon-home />
     </router-link>
     <router-link class="icon-btn mx-2" to="/team" :title="t('button.home')">
-      <carbon-person />
+      <carbon-events />
     </router-link>
     <router-link class="icon-btn mx-2" to="/team" :title="t('button.home')">
       <carbon-shopping-cart />

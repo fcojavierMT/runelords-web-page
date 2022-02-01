@@ -5,7 +5,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <nav class="flex items-center justify-between text-xl mt-6">
+  <nav class="navigation flex items-center justify-between text-xl pt-10">
     <div class="flex flex-row links">
       <router-link class="flex icon-btn mx-2 items-center" to="/" :title="t('button.home')">
         <carbon-home class="mr-2" /> Inicio
@@ -30,3 +30,12 @@ const { t } = useI18n()
     </div>
   </nav>
 </template>
+
+<style scoped>
+.navigation {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 95%;
+}
+</style>

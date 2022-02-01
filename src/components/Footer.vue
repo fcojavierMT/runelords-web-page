@@ -1,8 +1,6 @@
 <template>
   <footer class="footer mb-5 text-center">
-    <p class="text-center">
-      Copyright &copy; Runelords
-    </p>
+    <p class="text-center" />
   </footer>
 </template>
 

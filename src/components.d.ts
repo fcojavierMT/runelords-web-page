@@ -7,6 +7,7 @@ declare module 'vue' {
     CarbonBadge: typeof import('~icons/carbon/badge')['default']
     CarbonEvents: typeof import('~icons/carbon/events')['default']
     CarbonHome: typeof import('~icons/carbon/home')['default']
+    CarbonLogoTwitter: typeof import('~icons/carbon/logo-twitter')['default']
     CarbonShoppingCart: typeof import('~icons/carbon/shopping-cart')['default']
     Counter: typeof import('./components/Counter.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
